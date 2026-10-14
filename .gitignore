@@ -1,0 +1,39 @@
+# Datasets (too large for GitHub)
+DATASETS/
+
+# Enhancement results / outputs
+enhancement_results/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Model checkpoints & weights
+*.pth
+*.pt
+*.ckpt
+*.h5
+
+# Logs
+*.log
