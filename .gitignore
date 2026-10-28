@@ -1,0 +1,33 @@
+# ---- Not pushed to GitHub ----------------------------------------------
+# Datasets (download them yourself, see README)
+DATASETS/
+
+# All training outputs (checkpoints, predictions, visualisations, logs).
+# The best models are in models/, a few sample results in samples/,
+# and the metric files in results/.
+enhancement_results/
+
+# Checkpoints anywhere except the two best models in models/
+*.pth
+!models/*.pth
+
+# Helper scripts and notes that are not part of the published pipeline
+benchmark.py
+Baseline_identity.py
+evaluate_nriqa.py
+setup_ssh.ps1
+result.txt
+resume_analysis.md
+results_summary.md
+
+# Python / editor / OS clutter
+__pycache__/
+*.pyc
+*.log
+.vscode/
+.idea/
+.env/
+.venv/
+venv/
+Thumbs.db
+.DS_Store
